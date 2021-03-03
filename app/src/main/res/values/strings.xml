@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Fakestagram</string>
+    <string name="description">description</string>
+    <string name="log_out">Log Out</string>
+</resources>
