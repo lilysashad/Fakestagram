@@ -1,17 +1,17 @@
-# Project 3 - *Fakestagram*
+# Project 3 - *Name of App Here*
 
-**Fakestagram** is a photo sharing app similar to Instagram but using Parse as its backend.
+**Name of your app** is a photo sharing app similar to Instagram but using Parse as its backend.
 
-Time spent: **6** hours spent in total
+Time spent: **X** hours spent in total
 
 ## User Stories
 
 The following **required** functionality is completed:
 
-- [x] User can sign up to create a new account using Parse authentication.
-- [x] User can log in and log out of his or her account.
-- [x] The current signed in user is persisted across app restarts.
-- [x] User can take a photo, add a caption, and post it to "Instagram".
+- [ ] User can sign up to create a new account using Parse authentication.
+- [ ] User can log in and log out of his or her account.
+- [ ] The current signed in user is persisted across app restarts.
+- [ ] User can take a photo, add a caption, and post it to "Instagram".
 
 The following **optional** features are implemented:
 
@@ -19,17 +19,21 @@ The following **optional** features are implemented:
 - [ ] Style the feed to look like the real Instagram feed.
 - [ ] After the user submits a new post, show an indeterminate progress bar while the post is being uploaded to Parse.
 
+The following **additional** features are implemented:
+
+- [ ] List anything else that you can get done to improve the app functionality!
+
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='FakestagramWalkthrough.gif' title='Fakestagram Walkthrough' width='' alt='Fakestagram Walkthrough' />
+<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-User interface will be improved upon to mimic Instagram.
+Describe any challenges encountered while building the app.
 
 ## Open-source libraries used
 
@@ -38,7 +42,7 @@ User interface will be improved upon to mimic Instagram.
 
 ## License
 
-    Copyright [2021] [Lily D]
+    Copyright [yyyy] [name of copyright owner]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.

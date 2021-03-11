@@ -5,12 +5,26 @@ import com.parse.ParseClassName;
 import com.parse.ParseUser;
 import com.parse.ParseFile;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+
+import java.util.ArrayList;
+import java.util.List;
+
 @ParseClassName("Post")
 public class Post extends ParseObject{
 
+    public static final String KEY_AVATAR = "Avatar";
     public static final String KEY_DESCRIPTION = "description";
     public static final String KEY_IMAGE = "image";
     public static final String KEY_USER = "user";
+    public static final String KEY_CREATED_KEY = "createdAt";
+
+    public ParseFile getAvatar(){
+
+        return getParseFile(KEY_AVATAR);
+
+    }
 
     public String getDescription(){
 
@@ -42,7 +56,7 @@ public class Post extends ParseObject{
 
     }
 
-    public void setUser(ParseUser user){
+    public void setUser(ParseUser user) {
 
         put(KEY_USER, user);
     }
